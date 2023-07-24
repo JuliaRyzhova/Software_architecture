@@ -1,10 +1,10 @@
 class Camera:
-    def __init__(self, Location: Point3D, Angle: Angle3D) -> None:
-        self.Location = Location
-        self.Angle = Angle
+    def __init__(self, location: Point3D, angle: Angle3D) -> None:
+        self.location = location
+        self.angle = angle
 
-    def Rotate(data: Angle3D) -> None:
+    def rotate(data: Angle3D) -> None:
         pass
 
-    def Move(data: Point3D) -> None:
+    def move(data: Point3D) -> None:
         pass

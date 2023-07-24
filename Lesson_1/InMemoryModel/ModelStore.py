@@ -6,39 +6,38 @@ from IModelChangeObserver import IModelChangeObserver
 from IModelChanger import IModelChanger
 
 
-class ModelStore(IModelChanger, IModelChangeObserver):
-    """Класс ModelStore
+class modelstore(IModelChanger):
+    """Класс modelstore
 
     Args:
         IModelChanger : наследует метод NotifyChange абстрактного класса IModelChanger
-        IModelChangeObserver : принимает в себя атрибут типа IModelChangeObserver
 
     Attributes:
-        Models - (public) поле типа Model
-        Scenes - (public) поле типа Scene
-        Flashes - (public) поле типа Flash
-        Cameras - (public) поле типа Camera
+        models - (public) поле типа Model
+        scenes - (public) поле типа Scene
+        flashes - (public) поле типа Flash
+        cameras - (public) поле типа Camera
         __changeObservers - (private) поле типа IModelChangeObserver
 
     Methods:
-        GetScena(int) - 
-        NotifyChange(IModelChanger) - 
+        get_scena(int) - 
+        notify_change(IModelChanger) - 
     """
 
     def __init__(self,
-                 Models: PoligonalModel,
-                 Scenes: Scene,
-                 Flashes: Flash,
-                 Cameras: Camera,
+                 models: PoligonalModel,
+                 scenes: Scene,
+                 flashes: Flash,
+                 cameras: Camera,
                  changeObservers: IModelChangeObserver) -> None:
-        self.Models = Models
-        self.Scenes = Scenes
-        self.Flashes = Flashes
-        self.Cameras = Cameras
+        self.models = models
+        self.scenes = scenes
+        self.flashes = flashes
+        self.cameras = cameras
         self.__changeObservers = changeObservers
 
-    def GetScena(data: int) -> Scene:
+    def get_scena(data: int) -> Scene:
         return data
 
-    def NotifyChange(data: IModelChanger) -> None:
+    def notify_change(data: IModelChanger) -> None:
         pass

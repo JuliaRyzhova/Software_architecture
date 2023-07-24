@@ -3,5 +3,5 @@ from abc import ABC, abstractmethod
 
 class IModelChanger(ABC):
     @abstractmethod
-    def NotifyChange(data: IModelChangersender) -> None:
+    def notify_change(data: IModelChangersender) -> None:
         pass

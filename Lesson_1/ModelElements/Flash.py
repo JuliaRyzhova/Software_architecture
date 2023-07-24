@@ -1,12 +1,12 @@
 class Flash:
-    def __init__(self, Location: Point3D, Angle: Angle3D, Color: Color, Power: float) -> None:
-        self.Location = Location
-        self.Angle = Angle
-        self.Color = Color
-        self.Power = Power
+    def __init__(self, location: Point3D, angle: angle3D, color: color, power: float) -> None:
+        self.location = location
+        self.angle = angle
+        self.color = color
+        self.power = power
 
-    def Rotate(data: Angle3D) -> None:
+    def rotate(data: angle3D) -> None:
         pass
 
-    def Move(data: Point3D) -> None:
+    def move(data: Point3D) -> None:
         pass
