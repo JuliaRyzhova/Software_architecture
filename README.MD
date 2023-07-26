@@ -27,18 +27,18 @@
 
 Порождающие (generating_patterns):
 
-* ![Строитель (builder)]()
-* ![Фабричный метод (factory_method)]()
-* ![Прототип (prototip)]()
-* ![Одиночка (singlton)]()
+* [Строитель (builder)]()
+* [Фабричный метод (factory_method)]()
+* [Прототип (prototip)]()
+* [Одиночка (singlton)]()
 
 Структурные (structural_patterns):
 
-* ![Компоновщик (composite)]()
-* ![Адаптер (Adapter)]()
-* ![Мост (bridge)]()
-* ![Декоратор (decorator)]()
-* ![Фасад (facade)]()
+* [Компоновщик (composite)]()
+* [Адаптер (Adapter)]()
+* [Мост (bridge)]()
+* [Декоратор (decorator)]()
+* [Фасад (facade)]()
 
 Поведенческие (behavioral_patterns):
 
