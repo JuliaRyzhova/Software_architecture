@@ -36,7 +36,7 @@
 
 * [Компоновщик (composite)](https://github.com/JuliaRyzhova/Software_architecture/blob/main/Seminar_2/structural_patterns/сomposite.py)
 * [Адаптер (Adapter)](https://github.com/JuliaRyzhova/Software_architecture/blob/main/Seminar_2/structural_patterns/adapter.py)
-* [Мост (bridge)]https://github.com/JuliaRyzhova/Software_architecture/blob/main/Seminar_2/structural_patterns/bridge.py()
+* [Мост (bridge)](https://github.com/JuliaRyzhova/Software_architecture/blob/main/Seminar_2/structural_patterns/bridge.py)
 * [Декоратор (decorator)](https://github.com/JuliaRyzhova/Software_architecture/blob/main/Seminar_2/structural_patterns/decorator.py)
 * [Фасад (facade)](https://github.com/JuliaRyzhova/Software_architecture/blob/main/Seminar_2/structural_patterns/facade.py)
 
