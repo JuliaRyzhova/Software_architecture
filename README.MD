@@ -158,4 +158,4 @@ public class GeometryApp {
     }
 }
 ```
-[Реализация на языке Java]https://github.com/JuliaRyzhova/Software_architecture/tree/main/components_java/src) 
+[Реализация на языке Java](https://github.com/JuliaRyzhova/Software_architecture/tree/main/components_java/src) 
