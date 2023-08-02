@@ -1,26 +1,26 @@
 package view;
 
 /**
- * Класс представления параметров круга в консоли, наследник интерфейса ShapeView
+ * РљР»Р°СЃСЃ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏ РїР°СЂР°РјРµС‚СЂРѕРІ РєСЂСѓРіР° РІ РєРѕРЅСЃРѕР»Рё, РЅР°СЃР»РµРґРЅРёРє РёРЅС‚РµСЂС„РµР№СЃР° ShapeView
  */
 public class CircleView implements ShapeView {
     /**
-     * Метод для вывода площади круга в консоль
+     * РњРµС‚РѕРґ РґР»СЏ РІС‹РІРѕРґР° РїР»РѕС‰Р°РґРё РєСЂСѓРіР° РІ РєРѕРЅСЃРѕР»СЊ
      *
-     * @param area площадь круга
+     * @param area РїР»РѕС‰Р°РґСЊ РєСЂСѓРіР°
      */
     @Override
     public void showArea(double area) {
-        System.out.println("Площадь круга: " + area);
+        System.out.println("РџР»РѕС‰Р°РґСЊ РєСЂСѓРіР°: " + area);
     }
 
     /**
-     * Метод для вывода периметра круга в консоль
+     * РњРµС‚РѕРґ РґР»СЏ РІС‹РІРѕРґР° РїРµСЂРёРјРµС‚СЂР° РєСЂСѓРіР° РІ РєРѕРЅСЃРѕР»СЊ
      *
-     * @param perimeter периметр круга
+     * @param perimeter РїРµСЂРёРјРµС‚СЂ РєСЂСѓРіР°
      */
     @Override
     public void showPerimeter(double perimeter) {
-        System.out.println("Периметр круга: " + perimeter);
+        System.out.println("РџРµСЂРёРјРµС‚СЂ РєСЂСѓРіР°: " + perimeter);
     }
 }
