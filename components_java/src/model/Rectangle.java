@@ -3,7 +3,7 @@ package model;
 /**
  * Класс геометрической фигуры 'Прямоугольник' наследник интерфейса 'Shape'
  */
-public class Rectangle implements Shape {
+public class Rectangle implements IShape {
     /**
      * Поле длина прямоугольника
      */
@@ -20,12 +20,16 @@ public class Rectangle implements Shape {
      * @param width  ширина прямоугольника
      */
     public Rectangle(double length, double width) {
+        if (width <= 0 || length <= 0) {
+            throw new IllegalArgumentException("Ширина и длина прямоугольника должны быть положительными числами");
+        }
         this.length = length;
         this.width = width;
     }
 
     /**
      * Метод расчета площади прямоугольника
+     *
      * @return площадь прямоугольника (тип double)
      */
     @Override

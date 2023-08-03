@@ -6,7 +6,7 @@ import view.TriangleView;
 /**
  * Класс для связи расчета параметров треугольника и вывода их в консоль
  */
-public class TriangleController implements ShapeController {
+public class TriangleController implements IShapeController {
     /**
      * Поле объекта 'треугольник'
      */

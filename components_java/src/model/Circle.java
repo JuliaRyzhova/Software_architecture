@@ -3,7 +3,7 @@ package model;
 /**
  * Класс геометрической фигуры 'Круг' наследник интерфейса 'Shape'
  */
-public class Circle implements Shape {
+public class Circle implements IShape {
     /**
      * Поле радиус круга
      */
@@ -15,6 +15,9 @@ public class Circle implements Shape {
      * @param radius радиус круга
      */
     public Circle(double radius) {
+        if (radius <= 0) {
+            throw new IllegalArgumentException("Радиус должен быть положительным числом");
+        }
         this.radius = radius;
     }
 

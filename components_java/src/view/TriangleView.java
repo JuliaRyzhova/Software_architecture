@@ -3,7 +3,7 @@ package view;
 /**
  * Класс представления параметров треугольника в консоли, наследник интерфейса ShapeView
  */
-public class TriangleView implements ShapeView {
+public class TriangleView implements IShapeView {
     /**
      * Метод для вывода площади треугольника в консоль
      *

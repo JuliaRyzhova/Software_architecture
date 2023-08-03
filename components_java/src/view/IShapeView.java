@@ -3,7 +3,7 @@ package view;
 /**
  *  Интерфейс для представления геометрических фигур
  */
-public interface ShapeView {
+public interface IShapeView {
     /**
      * Метод вывода на консоль площади фигуры
      */

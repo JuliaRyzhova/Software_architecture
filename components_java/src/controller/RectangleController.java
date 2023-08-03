@@ -6,7 +6,7 @@ import view.RectangleView;
 /**
  * Класс для связи расчета параметров прямоугольника и вывода их в консоль
  */
-public class RectangleController implements ShapeController {
+public class RectangleController implements IShapeController {
     /**
      * Поле объекта 'прямоугольник'
      */

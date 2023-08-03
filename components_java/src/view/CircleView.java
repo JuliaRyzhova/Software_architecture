@@ -3,7 +3,7 @@ package view;
 /**
  * Класс представления параметров круга в консоли, наследник интерфейса ShapeView
  */
-public class CircleView implements ShapeView {
+public class CircleView implements IShapeView {
     /**
      * Метод для вывода площади круга в консоль
      *

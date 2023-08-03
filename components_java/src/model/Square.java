@@ -3,7 +3,7 @@ package model;
 /**
  * Класс геометрической фигуры 'Квадрат' наследник интерфейса 'Shape'
  */
-public class Square implements Shape {
+public class Square implements IShape {
     /**
      * Поле сторона квадрата
      */
@@ -15,6 +15,9 @@ public class Square implements Shape {
      * @param side сторона квадрата
      */
     public Square(double side) {
+        if (side <= 0) {
+            throw new IllegalArgumentException("Сторона круга должна быть быть положительным числом");
+        }
         this.side = side;
     }
 

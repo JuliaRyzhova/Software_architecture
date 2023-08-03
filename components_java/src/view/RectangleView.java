@@ -3,7 +3,7 @@ package view;
 /**
  * Класс представления параметров прямоугольника в консоли, наследник интерфейса ShapeView
  */
-public class RectangleView implements ShapeView {
+public class RectangleView implements IShapeView {
     /**
      * Метод для вывода площади прямоугольника в консоль
      *

@@ -6,7 +6,7 @@ import view.CircleView;
 /**
  * Класс для связи расчета параметров круга и вывода их в консоль
  */
-public class CircleController implements ShapeController {
+public class CircleController implements IShapeController {
     /**
      * Поле объекта 'круг'
      */

@@ -3,7 +3,7 @@ package view;
 /**
  * Класс представления параметров квадрата в консоли, наследник интерфейса ShapeView
  */
-public class SquareView implements ShapeView {
+public class SquareView implements IShapeView {
     /**
      * Метод для вывода площади квадрата в консоль
      *

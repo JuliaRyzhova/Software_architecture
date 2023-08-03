@@ -3,7 +3,7 @@ package model;
 /**
  * Абстрактный интерфейс геометрической фигуры
  */
-public interface Shape {
+public interface IShape {
     /**
      * Метод расчета площади фигуры
      *

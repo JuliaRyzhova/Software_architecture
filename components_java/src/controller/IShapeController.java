@@ -3,7 +3,7 @@ package controller;
 /**
  * Интерфейс для связи расчета параметров геометрической фигуры и вывода их в консоль
  */
-public interface ShapeController {
+public interface IShapeController {
     /**
      * Метод расчета площади геометрической фигуры и вывода ее в консоль
      */

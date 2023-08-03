@@ -6,7 +6,7 @@ import view.SquareView;
 /**
  * Класс для связи расчета параметров квадрата и вывода их в консоль
  */
-public class SquareController implements ShapeController {
+public class SquareController implements IShapeController {
     /**
      * Поле объекта 'квадрат'
      */
