@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/GeometryApp.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/controller/CircleController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/controller/IShapeController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/controller/RectangleController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/controller/SquareController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/controller/TriangleController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/model/Circle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/model/IShape.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/model/Rectangle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/model/Square.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/model/Triangle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/view/CircleView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/view/IShapeView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/view/RectangleView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/view/SquareView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/view/TriangleView.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
