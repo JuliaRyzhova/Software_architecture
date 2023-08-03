@@ -22,7 +22,7 @@ public class GeometryApp {
 
     public static void main(String[] args) {
         try {
-            Circle circle = new Circle(5);
+            Circle circle = new Circle(-10);
             CircleView circleView = new CircleView();
             CircleController circleController = new CircleController(circleView, circle);
             circleController.getArea();

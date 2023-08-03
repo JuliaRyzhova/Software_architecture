@@ -7,7 +7,7 @@ public class Rectangle implements IShape {
     /**
      * Поле длина прямоугольника
      */
-    private double length;
+    private double lenght;
     /**
      * Поле ширина прямоугольника
      */
@@ -16,15 +16,15 @@ public class Rectangle implements IShape {
     /**
      * Конструктор - создание нового экземпляра класса Rectangle
      *
-     * @param length длина прямоугольника (должна быть положительным числом)
+     * @param lenght длина прямоугольника (должна быть положительным числом)
      * @param width  ширина прямоугольника (должна быть положительным числом)
      * @throws IllegalArgumentException (Нельзя вводить числа <= 0)
      */
-    public Rectangle(double length, double width) {
-        if (width <= 0 || length <= 0) {
+    public Rectangle(double lenght, double width) {
+        if (width <= 0 || lenght <= 0) {
             throw new IllegalArgumentException("Ширина и длина прямоугольника должны быть положительными числами");
         }
-        this.length = length;
+        this.lenght = lenght;
         this.width = width;
     }
 
@@ -35,7 +35,7 @@ public class Rectangle implements IShape {
      */
     @Override
     public double calculateArea() {
-        return length * width;
+        return lenght * width;
     }
 
     /**
@@ -45,6 +45,6 @@ public class Rectangle implements IShape {
      */
     @Override
     public double calculatePerimeter() {
-        return 2 * (length + width);
+        return 2 * (lenght + width);
     }
 }
