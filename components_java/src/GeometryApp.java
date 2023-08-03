@@ -40,7 +40,7 @@ public class GeometryApp {
             System.out.println("Ошибка при создании прямоугольника: " + e.getMessage());
         }
         try {
-            Triangle triangle = new Triangle(3, -5, 5);
+            Triangle triangle = new Triangle(1, 2 ,3);
             TriangleView triangleView = new TriangleView();
             TriangleController triangleController = new TriangleController(triangleView, triangle);
             triangleController.getArea();

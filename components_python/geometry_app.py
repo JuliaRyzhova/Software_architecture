@@ -7,4 +7,4 @@ circle.set_radius(10)
 print(circle.get_radius())
 
 rectangle = Rectangle(10, 15)
-print(rectangle.get_value())
+print(rectangle.get_values())

@@ -9,13 +9,14 @@ class Circle(Shape):
         __radius (float): радиус круга (должен быть положительным числом)
     Методы:
     - __init__(radius: float): конструктор класса Circle
-    - __check_value(radius) -> bool: проверяет корректность введенных данных
+    - __check_value(radius: float) -> bool: проверяет корректность введенных данных
     - get_radius() -> float: возвращает радиус круга
     - set_radius(radius: float): устанавливает радиус круга
     - calculate_area() -> float: вычисляет площадь круга
-    - calculate_perimeter() -> float: вычисляет периметр круга"""
+    - calculate_perimeter() -> float: вычисляет периметр круга
+    """
 
-    def __init__(self, radius: float):
+    def __init__(self, radius: float) -> None:
         """Конструктор - создание нового экземпляра класса Circle
 
         Args:
@@ -42,7 +43,7 @@ class Circle(Shape):
         """
         return self.__radius
 
-    def set_radius(self, radius: float):
+    def set_radius(self, radius: float) -> None:
         """
         Устанавливает значение радиуса круга.
 
