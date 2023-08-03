@@ -34,8 +34,12 @@ public class TriangleController implements IShapeController {
      */
     @Override
     public void getArea() {
-        double area = triangle.calculateArea();
-        view.showArea(area);
+        try {
+            double area = triangle.calculateArea();
+            view.showArea(area);
+        } catch (IllegalArgumentException e) {
+            view.showSideError();
+        }
     }
 
     /**
@@ -44,7 +48,11 @@ public class TriangleController implements IShapeController {
 
     @Override
     public void getPerimeter() {
-        double perimeter = triangle.calculatePerimeter();
-        view.showPerimeter(perimeter);
+        try {
+            double perimeter = triangle.calculatePerimeter();
+            view.showPerimeter(perimeter);
+        } catch (IllegalArgumentException e) {
+            view.showSideError();
+        }
     }
 }

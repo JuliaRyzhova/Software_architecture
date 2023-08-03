@@ -23,4 +23,11 @@ public class SquareView implements IShapeView {
     public void showPerimeter(double perimeter) {
         System.out.println("Периметр квадрата: " + perimeter);
     }
+
+    /**
+     * Метод для вывода ошибки некорректного значения стороны квадрата
+     */
+    public void showSideError() {
+        System.out.println("Ошибка: некорректное значение стороны квадрата! Сторона квадрата должна быть положительным числом");
+    }
 }

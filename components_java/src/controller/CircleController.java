@@ -21,7 +21,7 @@ public class CircleController implements IShapeController {
      * Конструктор - создание нового экземпляра класса CircleController с заданным объектом 'прямоугольник' и
      * его представлением
      *
-     * @param view      представление объекта 'круг'
+     * @param view   представление объекта 'круг'
      * @param circle объект 'круг'
      */
     public CircleController(CircleView view, Circle circle) {
@@ -35,8 +35,12 @@ public class CircleController implements IShapeController {
      */
     @Override
     public void getArea() {
-        double area = circle.calculateArea();
-        view.showArea(area);
+        try {
+            double area = circle.calculateArea();
+            view.showArea(area);
+        } catch (IllegalArgumentException e) {
+            view.showRadiusError();
+        }
     }
 
     /**
@@ -45,7 +49,11 @@ public class CircleController implements IShapeController {
 
     @Override
     public void getPerimeter() {
-        double perimeter = circle.calculatePerimeter();
-        view.showPerimeter(perimeter);
+        try {
+            double perimeter = circle.calculatePerimeter();
+            view.showPerimeter(perimeter);
+        } catch (IllegalArgumentException e) {
+            view.showRadiusError();
+        }
     }
 }

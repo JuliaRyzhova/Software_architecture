@@ -7,10 +7,10 @@ public interface IShapeController {
     /**
      * Метод расчета площади геометрической фигуры и вывода ее в консоль
      */
-    public void getArea();
+    void getArea();
 
     /**
      * Метод расчета периметра геометрической фигуры и вывода ее в консоль
      */
-    public void getPerimeter();
+    void getPerimeter();
 }

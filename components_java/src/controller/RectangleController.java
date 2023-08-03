@@ -34,8 +34,12 @@ public class RectangleController implements IShapeController {
      */
     @Override
     public void getArea() {
-        double area = rectangle.calculateArea();
-        view.showArea(area);
+        try {
+            double area = rectangle.calculateArea();
+            view.showArea(area);
+        } catch (IllegalArgumentException e) {
+            view.showDimensionsError();
+        }
     }
 
     /**
@@ -43,7 +47,12 @@ public class RectangleController implements IShapeController {
      */
     @Override
     public void getPerimeter() {
-        double perimeter = rectangle.calculatePerimeter();
-        view.showPerimeter(perimeter);
+        try {
+            double perimeter = rectangle.calculatePerimeter();
+            view.showPerimeter(perimeter);
+        } catch (IllegalArgumentException e) {
+            view.showDimensionsError();
+        }
     }
 }
+

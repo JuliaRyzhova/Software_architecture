@@ -33,8 +33,12 @@ public class SquareController implements IShapeController {
      */
     @Override
     public void getArea() {
-        double area = square.calculateArea();
-        view.showArea(area);
+        try {
+            double area = square.calculateArea();
+            view.showArea(area);
+        } catch (IllegalArgumentException e) {
+            view.showSideError();
+        }
     }
 
     /**
@@ -42,7 +46,11 @@ public class SquareController implements IShapeController {
      */
     @Override
     public void getPerimeter() {
-        double perimeter = square.calculatePerimeter();
-        view.showPerimeter(perimeter);
+        try {
+            double perimeter = square.calculatePerimeter();
+            view.showPerimeter(perimeter);
+        } catch (IllegalArgumentException e) {
+            view.showSideError();
+        }
     }
 }

@@ -23,4 +23,11 @@ public class CircleView implements IShapeView {
     public void showPerimeter(double perimeter) {
         System.out.println("Периметр круга: " + perimeter);
     }
+
+    /**
+     * Метод для вывода ошибки некорректного значения радиуса круга
+     */
+    public void showRadiusError() {
+        System.out.println("Ошибка: некорректное значение радиуса круга! Радиус должен быть положительным числом");
+    }
 }

@@ -23,4 +23,11 @@ public class TriangleView implements IShapeView {
     public void showPerimeter(double perimeter) {
         System.out.println("Периметр треугольника: " + perimeter);
     }
+
+    /**
+     * Метод для вывода ошибки некорректного значения сторон треугольника
+     */
+    public void showSideError() {
+        System.out.println("Ошибка: некорректное значение сторон треугольника! Все стороны треугольника должны быть положительными числами");
+    }
 }
