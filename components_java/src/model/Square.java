@@ -17,7 +17,7 @@ public class Square implements IShape {
      */
     public Square(double side) {
         if (side <= 0) {
-            throw new IllegalArgumentException("Сторона круга должна быть быть положительным числом");
+            throw new IllegalArgumentException("Сторона квадрата должна быть быть положительным числом");
         }
         this.side = side;
     }
