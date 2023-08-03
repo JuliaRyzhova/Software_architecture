@@ -11,7 +11,7 @@ class Triangle(Shape):
         __side_3 (float): длина третьей стороны треугольника (должна быть положительным числом)
     Методы:
     - __init__(side_1: float, side_2: float, side_3: float): конструктор класса Triangle
-    - __check_values(side_1, side_2, side_3) -> bool: проверяет корректность введенных данных
+    - __check_values(side_1: float, side_2: float, side_3: float) -> bool: проверяет корректность введенных данных
     - get_values() -> tuple: возвращает кортеж из длин трех сторон треугольника
     - set_values(side_1: float, side_2: float, side_3: float): устанавливает длины сторон треугольника
     - calculate_area() -> float: вычисляет площадь треугольника
