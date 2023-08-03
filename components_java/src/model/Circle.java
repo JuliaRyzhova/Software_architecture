@@ -12,7 +12,8 @@ public class Circle implements IShape {
     /**
      * Конструктор - создание нового экземпляра класса Circle
      *
-     * @param radius радиус круга
+     * @param radius радиус круга (должен быть положительным числом)
+     * @throws IllegalArgumentException (Нельзя вводить числа <= 0)
      */
     public Circle(double radius) {
         if (radius <= 0) {

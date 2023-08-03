@@ -21,9 +21,10 @@ public class Triangle implements IShape {
     /**
      * создание нового экземпляра класса Triangle
      *
-     * @param side1 длина первой стороны треугольника
-     * @param side2 длина второй стороны треугольника
-     * @param side3 длина третьей стороны треугольника
+     * @param side1 длина первой стороны треугольника (должна быть положительным числом)
+     * @param side2 длина второй стороны треугольника (должна быть положительным числом)
+     * @param side3 длина третьей стороны треугольника (должна быть положительным числом)
+     * @throws IllegalArgumentException (Нельзя вводить числа <= 0)
      */
     public Triangle(double side1, double side2, double side3) {
         if (side1 <= 0 || side2 <= 0 || side3 <= 0) {

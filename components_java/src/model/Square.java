@@ -12,7 +12,8 @@ public class Square implements IShape {
     /**
      * Конструктор - создание нового экземпляра класса Square
      *
-     * @param side сторона квадрата
+     * @param side сторона квадрата (должна быть положительным числом)
+     * @throws IllegalArgumentException (Нельзя вводить числа <= 0)
      */
     public Square(double side) {
         if (side <= 0) {
