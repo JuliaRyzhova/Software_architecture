@@ -1,0 +1,7 @@
+[Ee]nv/
+__pycache__/
+.vs/
+.vscode/
+settings.py
+venv
+.log
