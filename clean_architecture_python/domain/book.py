@@ -32,11 +32,11 @@ class Book:
         self.__author = author
         self.__price = price
 
-    def get_id(self) -> str:
+    def get_id(self) -> int:
         """Возвращает идентификатор книги
 
         Returns:
-        - str: идентификатор книги
+        - int: идентификатор книги
         """
         return self.__id
 
