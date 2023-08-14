@@ -350,4 +350,4 @@ public class Main {
 
 Описать этапы подготовки к разработке вэб-приложения, сделайть сырой макет интерфейса на figma.com
 
-[Реализация ](https://github.com/JuliaRyzhova/Software_architecture/tree/main/web-application)
+[Реализация ](https://github.com/JuliaRyzhova/Software_architecture/blob/main/web_application/README.md)
