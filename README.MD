@@ -342,3 +342,12 @@ public class Main {
 ```
 
 [Реализация принципов Чистой архитектуры на Python](https://github.com/JuliaRyzhova/Software_architecture/tree/main/clean_architecture_python)
+
+
+# Урок 7 (Типа архитектур WEB-приложений: MPA, SPA.)
+
+Задание:
+
+Описать этапы подготовки к разработке вэб-приложения, сделайть сырой макет интерфейса на figma.com
+
+[Реализация ](https://github.com/JuliaRyzhova/Software_architecture/tree/main/web-application)
