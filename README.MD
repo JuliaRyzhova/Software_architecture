@@ -351,3 +351,13 @@ public class Main {
 Описать этапы подготовки к разработке вэб-приложения, сделайть сырой макет интерфейса на figma.com
 
 [Реализация ](https://github.com/JuliaRyzhova/Software_architecture/blob/main/web_application/README.md)
+
+
+# Урок 8 (Типы архитектур прикладных приложений (мобильные): MVC, MVP, MVVM)
+[Реализация паттернов на языке Java](https://github.com/JuliaRyzhova/Software_architecture/tree/main/seminar_8_java/src)
+
+Задание:
+
+Задание: Создание UML диаграммы классов для веб-приложения(Любого, но лучше взять за основу предыдущее)
+
+[Реализация ](https://github.com/JuliaRyzhova/Software_architecture/blob/main/uml_diagram/README.md)
