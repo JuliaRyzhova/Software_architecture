@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+ 
+{% block content %}
+{{ super() }}
+{% for cat, msg in get_flashed_messages(True) %}
+<div class="flash {{cat}}">{{msg}}</div>
+{% endfor %}
+<form action="/add_book" method="post" class="form-contact">
+<p><label>Название книги: </label> <input type="text" name="title" value="" requied />
+<p><label>Автор: </label> <input type="text" name="author" value="" requied />
+<p><label>Цена за 1 экземпляр: </label> <input type="real" name="price" value="" requied />
+<p><label>Количество экземпляров: </label> <input type="int" name="count_book" value="" requied />
+<p><label>Год издания: </label> <input type="text" name="year_release" value="" requied />
+<p><input type="submit" value="Добавить" />
+</form>
+{% endblock %}

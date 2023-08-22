@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{{ super() }}
+{% for cat, msg in get_flashed_messages(True) %}
+<div class="flash {{cat}}">{{msg}}</div>
+{% endfor %}
+<form action="/delete_book" method="post" class="form-contact">
+    <p><label>Введите Id книги </label> <input type="int" name="book_id" value="" requied />
+    <p><input type="submit" value="Удалить" />
+</form>
+{% endblock %}

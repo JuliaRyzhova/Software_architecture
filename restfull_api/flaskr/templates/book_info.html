@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{{ super() }}
+
+<h2>Книги</h2>
+<ul class="list-books">
+    {% for book in books %}
+    <li>
+        <p class="title"><a href="{{ url_for('show_books', 
+                                book_id=book.book_id,
+                                title = book.title,
+                                author = book.author,
+                                price = book.price,
+                                count_book = book.count,
+                                year_release  =book.year_release)}}">{{book.book_id}},
+                {{book.title}},
+                {{book.author}},
+                {{book.price}},
+                {{book.count_book}},
+                {{book.year_release}}</a></p>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

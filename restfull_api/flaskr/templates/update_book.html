@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+ 
+{% block content %}
+{{ super() }}
+{% for cat, msg in get_flashed_messages(True) %}
+<div class="flash {{cat}}">{{msg}}</div>
+{% endfor %}
+<form action="/update_book" method="post" class="form-contact">
+<p><label>Введите Id книги </label> <input type="int" name="book_id" value="" requied />
+<p><label>Новая цена </label> <input type="float" name="price" value="" requied />
+<p><label>Колчество экземпляров </label> <input type="int" name="count_book" value="" requied />
+<p><input type="submit" value="Изменить" />
+</form>
+{% endblock %}
