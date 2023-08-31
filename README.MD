@@ -523,3 +523,9 @@ __
 Задача Swagger - упростить процесс описания и документирования вашего API, а также предоставить средства для тестирования API непосредственно из документации.
 
 [Реализация](https://github.com/JuliaRyzhova/Software_architecture/tree/main/lesson_11)
+
+# Урок 12 (Принципы тестирования приложений)
+
+Задание: Написать документацию к тестированию для интернет магазина
+
+[Реализация](https://github.com/JuliaRyzhova/Software_architecture/tree/main/tests)
